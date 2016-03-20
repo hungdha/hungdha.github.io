@@ -159,9 +159,9 @@ function getBrowserAndVersion()
 	};
 }
 
-function searchString(data) 
+function searchString(paData) 
 {
-	for(var i = 0; i < data.length; i++)	
+	for(var i = 0; i < paData.length; i++)	
 	{
 		var lstrDataString 	= paData[i].string;
 		var lstrDataProp 	= paData[i].prop;
