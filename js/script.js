@@ -159,7 +159,7 @@ function getBrowserAndVersion()
 	};
 }
 
-function searchString(paData) 
+function searchString(data) 
 {
 	for(var i = 0; i < data.length; i++)	
 	{
