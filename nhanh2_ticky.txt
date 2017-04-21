@@ -1,0 +1,4 @@
+From now on, any Git command using an HTTP(S) URL which requires authentication will decrypt that _netrc.gpg file and use the login/password associated to the server you are contacting. The first time, GPG will ask you for the passphrase of your GPG key, to decrypt the file. The other times, the gpg-agent launched automatically by the first GPG call will provide that passphrase for you.
+
+That way, you can memorize several URLs/logins/passwords in one file, and have it stored on your disk encrypted. 
+I find it more convenient than a "cache" helper", where you need to remember and type (once per session) a different password for each of your remote services, for said password to be cached in memory.
